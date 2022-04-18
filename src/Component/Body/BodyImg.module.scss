@@ -1,0 +1,42 @@
+.imgBlock {
+  margin: -40vh;
+  border-radius: 20px;
+  height: 80vh;
+  width: 90vw;
+  padding: 0px 80px 64px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../../../public/img/img1.jpg);
+  background-repeat: no-repeat;
+  background-size: auto 80vw;
+  background-attachment: cover;
+  background-position: center;
+  background-blend-mode: darken, luminosity;
+  background-size: inherit;
+}
+
+.textBox {
+  padding: 10px;
+  display: block;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.btn {
+  border-radius: 25px;
+  padding: 14px;
+  background-color: white;
+  cursor: pointer;
+  &__text {
+    background: -webkit-linear-gradient(90deg, rgba(109,0,167,1) 0%, rgba(121,9,117,1) 62%, rgba(235,0,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+    letter-spacing: 2px;
+    font-weight: bold;
+  
+}

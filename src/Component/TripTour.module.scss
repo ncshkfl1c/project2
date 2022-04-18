@@ -1,0 +1,11 @@
+.container {
+  margin: 7vh;
+  .content {
+    font-size: 42px;
+    margin-bottom: 20px;
+  }
+  .tripTour {
+    display: flex;
+    justify-content: space-between;
+  }
+}

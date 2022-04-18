@@ -1,0 +1,29 @@
+* {
+  transition: all 0.1s linear;
+}
+
+
+
+.horizonCenter {
+  justify-content: center;
+}
+
+.navItem {
+  border-bottom: 3px none white;
+}
+
+.reset {
+  text-decoration: none;
+}
+
+.backGroundHover {
+  &:hover {
+    background: #434343;
+  }
+}
+
+@media (max-width: 1200px) {
+  .backGroundHover{
+    display: none;
+  }
+}
